@@ -11,14 +11,23 @@ _Helper scripts for using assembly (created by an UBB info student)_
 ```bat
 :: asm_compiler.bat
 ...
-set common_files=D:...\helper_progs\common_files
+set common_files=D:...\common_files
 ...
 ```
 
 Debugger:
 
-1. Install [SASM](https://github.com/Dman95/SASM)!
+1. Install [Python](https://www.python.org/downloads/)!
 
-2. To convert from SASM syntax to school nasm syntax, use `asm_transform school|sasm file.asm`
+2. Install [SASM](https://github.com/Dman95/SASM)!
+
+3. To convert from SASM syntax to school nasm syntax, use `asm_transform school|sasm file.asm`
 
 * _root directory needs to be added to the path!_
+
+### Usage
+
+* asm_compiler source (assembles a source file)
+* asm_runner source (assembles, then runs a source file)
+* asm_test source input.txt (assembles, then runs a source file stdin = input.txt
+* asm_transform (explained before)
